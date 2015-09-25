@@ -115,6 +115,10 @@ module FuelSDK
     include Objects::Soap::Read
   end
 
+  class Send < Objects::Base
+    include Objects::Soap::Read
+  end
+
   class SentEvent < Objects::Base
     include Objects::Soap::Read
   end
